@@ -1,0 +1,144 @@
+body{margin:auto;
+background-color:black;
+}
+a{
+    text-decoration:none;
+}
+#first{
+    height:550px;
+    width:100%;
+   
+    background-image: url('pexels-valiphotos-589840.jpg'); 
+    background-size:cover;
+
+}
+
+
+
+#profileimg >img{
+    height:441px;
+    width:34%;
+    border-radius: 40%;
+    float:left;
+    margin-left: 36px;
+    margin-top: 50px;
+    
+   
+    
+}
+#profilecontent {
+    height: 458px;
+    width: 60%;
+    
+    margin-left: 9px;
+    margin-top: 45px;
+    float: left;
+}
+
+#profilecontent>span{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+
+
+
+}
+
+
+    
+
+
+
+
+#second {
+    height:50px;
+    width:100%;
+    
+    background-color:#29323d;
+    text-align:center;
+    padding-top: 22px;
+    
+}
+
+#second>span{
+   
+    margin-left:100px;
+    
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+    font-style:italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#third{
+    height:362px;
+    width:100%;
+    margin-top: -37px;
+    background-color:white;
+  
+
+}
+
+#third>img{
+    height: 217px;
+    width: 338px;
+    margin-left: 186px;
+    margin-top: 18px;
+    display: inline-block;
+    animation:movelogo 20s infinite;
+}
+@keyframes movelogo {
+    0% {margin-left:186px}
+    25% {margin-left:210px}
+    50% {margin-left:250px}
+    75% {margin-left:210px}
+    100% {margin-left:186px}
+    
+}
+
+#fourth{
+    height:431px;
+    width:100%;
+   margin-top:-36px;
+   background-color: #29323d;
+}
+#fourth>img{
+    height:340px;
+    width:100%;
+}
+#fifth{
+    height:450px;
+    width:100%;
+   
+
+}
+#fifth>iframe{
+    height: 308px;
+    width: 505px;
+    margin-left: 88px;
+    border-radius: 20%;
+
+}
+#fifthbox{
+    height: 296px;
+    width: 531px;
+    margin-left: 88px;
+    margin-top: 20px;
+    
+    float:right;
+
+}
+#fifthbox>p{
+    color:white;
+    font-weight:bold;
+
+}
+#sixth{
+    height:50px;
+    width:100%;
+   
+}
+#sixth>footer{
+    margin-top: 20px;
+}
